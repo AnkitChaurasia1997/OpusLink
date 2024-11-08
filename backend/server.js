@@ -19,5 +19,5 @@ app.use(express.urlencoded(
 ));
 app.use(express.static("public"));
 app.use(cookieParser());
-import {createTestDocuments} from './backend/testmode.js';
+import {createTestDocuments} from './testmode.js';
 createTestDocuments();
